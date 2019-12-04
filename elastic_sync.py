@@ -34,7 +34,7 @@ class ElasticConnector:
         self.__conn = conn
 
     def elastic_sync(self, db, fill_null={
-        "datetime64": datetime(1970, 1, 1, 0, 0),
+        "datetime64": datetime(1678, 1, 1, 0, 0),
         "object": ""
     }):
         table_names = db.run_sql_query(
